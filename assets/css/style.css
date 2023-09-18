@@ -20,12 +20,17 @@ body {
 
 /* Header */
 header {
-    background-color: blueviolet;
+    background-color: lightgreen;
 }
+
+h1 {
+    font-weight: 800;
+}
+
 
 /* Main */
 main {
-    background-color: aquamarine;
+    background-color: rgb(98, 209, 237);
     /* Make main element take up any surplus space and push the footer down to the bottom */
     flex: 1 0 auto;
 }
