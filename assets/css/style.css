@@ -37,18 +37,14 @@ header a {
 }
 
 h1 {
-    text-transform: uppercase;
     font-family: "Cormorant Garamond", sans-serif;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color:#115a10
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-#logo {
-    text-align: center;
 }
 
 #menu {
@@ -70,10 +66,10 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
-    padding: 0 1rem;
     left: 0;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px rgb(17, 90, 16);
-    display: none;  
+    display: none;
     top: 100%;
 }
 
@@ -87,7 +83,7 @@ nav {
 }
 
 .nav-toggle-lable {
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 /* Main */
@@ -95,11 +91,36 @@ main {
     background-color: rgb(98, 209, 237);
     /* Make main element take up any surplus space and push the footer down to the bottom */
     flex: 1 0 auto;
-    margin-top: 77px;
+    margin-top: 47px;
 }
 
 /* Footer */
 
 footer {
     background-color: pink;
+}
+/* Media queries to make responsive*/
+
+@media screen and (min-width:768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    #logo {
+        padding-top:1em;
+    }
+    .nav-toggle-label {
+        display:none;
+    }
 }
