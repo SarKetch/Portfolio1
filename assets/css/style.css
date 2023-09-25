@@ -71,9 +71,15 @@ nav {
     background-color: #ffffff;
     width: 100%;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #115a10;
+    left: 0;
+    box-shadow: 0 2px 2px rgb(17, 90, 16);
     display: none;  
-    
+    top: 100%;
+}
+
+/*Nav toggle element*/
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Main */
