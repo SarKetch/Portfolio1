@@ -47,6 +47,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#logo {
+    text-align: center;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -55,8 +59,10 @@ a:hover {
 
 #menu > li {
     margin-bottom: 1em;
+    display: inline-block;
+    margin-top: 2em;
+    justify-content: center;
 }
-
 .active {
     border-bottom: 1px solid #115a10;
 }
