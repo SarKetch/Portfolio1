@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #fafafa;
+    color: #115a10;
     font-family: "Cormorant Garamond", sans-serif;
 }
 
@@ -27,13 +27,13 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #115a10;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
-    text-decoration: inherit;
-    color: #115a10;
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -59,12 +59,17 @@ a:hover {
 
 #menu > li {
     margin-bottom: 1em;
-    display: inline-block;
-    margin-top: 2em;
-    justify-content: center;
 }
 .active {
     border-bottom: 1px solid #115a10;
+}
+
+/* Navbar styles with dropdown toggle selector*/
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+
 }
 
 /* Main */
