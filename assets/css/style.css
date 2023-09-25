@@ -38,14 +38,19 @@ header a {
 
 h1 {
     text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
+    font-family: "Cormorant Garamond", sans-serif;
+    letter-spacing: 2px;
+    color:#115a10
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
 }
 
 /* Main */
