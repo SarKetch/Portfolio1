@@ -82,11 +82,20 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-lable {
+    font-size: 2rem;
+}
+
 /* Main */
 main {
     background-color: rgb(98, 209, 237);
     /* Make main element take up any surplus space and push the footer down to the bottom */
     flex: 1 0 auto;
+    margin-top: 77px;
 }
 
 /* Footer */
