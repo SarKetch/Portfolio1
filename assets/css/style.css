@@ -25,7 +25,7 @@ header {
     position: fixed; 
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #169813;
+    box-shadow: 0 2px 2px #115a10;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +51,14 @@ a:hover {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #115a10;
 }
 
 /* Main */
