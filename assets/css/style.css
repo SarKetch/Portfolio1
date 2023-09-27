@@ -99,9 +99,10 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
     font-size: large;
+    word-spacing: 0.5em;
 }
 .inquire-label {
     font-weight: 400;
@@ -110,10 +111,17 @@ main {
     letter-spacing: 0.1em;
     display: block;
     margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.inquire-email {
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 .footer-note {
     text-transform: uppercase;
+    font-style: italic;
 }
 
 /* Media queries to make responsive*/
