@@ -95,10 +95,27 @@ main {
 }
 
 /* Footer */
-
-footer {
-    background-color: pink;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: large;
 }
+.inquire-label {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-note {
+    text-transform: uppercase;
+}
+
 /* Media queries to make responsive*/
 
 @media screen and (min-width:768px) {
