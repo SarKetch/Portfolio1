@@ -22,7 +22,7 @@ body {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed; 
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #115a10;
@@ -40,22 +40,25 @@ h1 {
     font-family: "Cormorant Garamond", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#115a10
+    color: #115a10
 }
 
 }
+
 .center {
     padding-left: 0;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 2px solid #115a10;
 }
@@ -72,6 +75,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 nav li+li:before {
     content: "|";
     padding: 0 10px;
@@ -100,28 +104,39 @@ main {
 
 /* Footer */
 
-#footer-container {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-#social-networks {
+.stay-in-touch {
     display: flex;
-    list-style-type: none;
+    justify-content: center;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+footer li:before {
+    content: "|";
+    padding: 0 10px;
 }
 
 /* Media queries to make responsive*/
 
 @media screen and (min-width:768px) {
+
     /*Header*/
     header {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     nav {
         display: block;
         position: relative;
@@ -129,6 +144,7 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
         justify-content: center;
@@ -136,31 +152,39 @@ main {
         gap: 1em;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         text-align: center;
     }
+
     #logo {
-        line-height:75px;
+        line-height: 75px;
         font-size: 280%;
         margin-bottom: 15px;
     }
- 
-    
+
+
     h1 {
         text-align: center;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     /* Push main content downt to accomodate larger header */
     main {
-        margin-top:75px;
+        margin-top: 75px;
     }
 }
+
 @media screen and (min-width: 992px) {
 
-#menu a:hover {
-    border-bottom: 1px solid #115a10;
-}
+    #menu a:hover {
+        border-bottom: 1px solid #115a10;
+    }
+
+    main {
+        margin-top: 129.09px;
+    }
 }
