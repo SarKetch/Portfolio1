@@ -18,6 +18,13 @@ body {
     font-family: "Cormorant Garamond", sans-serif;
 }
 
+h1 {
+    font-family: "Cormorant Garamond", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #115a10
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -43,7 +50,6 @@ h1 {
     color: #115a10
 }
 
-}
 
 .center {
     padding-left: 0;
@@ -102,12 +108,26 @@ main {
     margin-top: 38px;
 }
 
+p ul {
+    letter-spacing: 2px;
+}
+
 #house-view {
     height: 800px;
     width: 100%;
     background: url("../images/houseview.jpg") no-repeat center center/cover;
 }
+#intro-text {
+    background-color: rgba(124, 233, 253, 0.56);
+}
 
+#intro-text h3 {
+    font-size: larger;
+    font-style: italic;
+}
+li {
+    list-style-type: square;
+}
 /* Footer */
 
 #social-networks {
