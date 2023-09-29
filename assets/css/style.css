@@ -102,8 +102,6 @@ nav li:before {
 
 /* Main */
 main {
-    background-color: rgb(98, 209, 237);
-    /* Make main element take up any surplus space and push the footer down to the bottom */
     flex: 1 0 auto;
     margin-top: 38px;
 }
@@ -111,37 +109,21 @@ main {
 p ul {
     letter-spacing: 2px;
 }
-/* Home images */
-#slide-show {
-    overflow: hidden;
-}
-
-#slide-show figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slide-show infinite;
-}
-
-#slide-show figure img {
-    float: left;
-    width: 20%;
-}
-
-@keyframes slide-show {
-    0 {left:0%}
-    20 {left:0%}
-    25 {}
-}
-
-#house-view {
-    height: 500px;
+/* Home image */
+#home-image {
+    height: 400px;
     width: 100%;
-    background: url("../images/houseview.jpg") no-repeat center center/cover;
+    background: url("../images/sunsetoysterbed.jpg") no-repeat center center/cover;
+    opacity: .8;
 }
+#opener {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
 #intro-text {
-    background-color: rgba(124, 233, 253, 0.56);
+    background-color: rgba(124, 234, 253, 0.134);
     padding-left: 20px;
 }
 
@@ -149,10 +131,16 @@ p ul {
     font-size: larger;
     font-style: italic;
 }
-#ameneties > li {
+
+#ameneties>li {
     padding-left: 10px;
 }
+
 /* Footer */
+footer {
+    margin-top: auto;
+    position: sticky;
+}
 
 #social-networks {
     text-align: center;
