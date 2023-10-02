@@ -38,7 +38,6 @@ header a {
 }
 
 h1 {
-    font-family: "Cormorant Garamond", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #115a10
@@ -171,14 +170,33 @@ p ul {
 
 /* Intro text */
 
+.separator {
+    border: 1px solid rgb(108, 110, 112);
+    width: 30vw;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator::before {
+    content: "";
+    display: block;
+    margin: 0;
+    flex-grow: 1;
+}
+
 #intro-text {
     background-color: #ffffff;
-    padding-left: 20px;
+    padding-left: 1.5em;
+    margin: 1em;
     font-size: 1.5em;
+    color: black;
 }
 #intro-text h3 {
     font-size: larger;
     font-style: italic;
+    color: #115a10;
 }
 
 #opener {
@@ -222,7 +240,7 @@ footer {
     justify-content: center;
     padding-top: 10px;
     font-style: italic;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 100%;
 }
