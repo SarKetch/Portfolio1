@@ -305,10 +305,22 @@ footer li:before {
     }
 
     main {
-        margin-top: 129.09px;
+        margin-top: 149.09px;
     }
 }
-/* CSS */
+
+/* Other CSS */
+
 @media screen and (min-width: 1200px) {
 
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.slide img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    }
 }
