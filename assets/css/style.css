@@ -101,7 +101,7 @@ p ul {
     letter-spacing: 2px;
 }
 
-/* Slider container */
+/* Slidewshow container */
 .container {
     overflow: hidden;
     display: flex;
@@ -109,6 +109,7 @@ p ul {
     align-items: center;
     width: 100%;
     height: auto;
+    position: sticky;
 }
 .slider {
     width: 100%;
