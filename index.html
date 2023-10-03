@@ -20,22 +20,29 @@
     <!-- Style sheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <header>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #115a10"></i></label>
-      <a href="index.html">
-        <h1 id="logo">The River House</h1>
-      </a>
-      <nav>
+  <body>    
+    <!-- Sidebar navigation -->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars burger-icon" style="color: #115a10"></i>
+            <i class="fa-solid fa-x close-icon" style="color: #115a10;"></i>
+        </label>
+    <nav>
         <ul id="menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="inquire.html">Inquire</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="inquire.html">Inquire</a></li>
         </ul>
-      </nav>
-    </header>
+    </nav>
+    
+    <!-- The rest of thecontent, which will move when the sidebar is activated -->
+    <div class="content">
+        <header>
+            <a href="index.html">
+                <h1 id="logo">The River House</h1>
+            </a>
+        </header>
 
 <main>
 <section class="container">
