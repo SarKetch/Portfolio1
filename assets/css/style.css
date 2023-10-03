@@ -23,12 +23,13 @@ header {
     background-color: #ffffff;
     padding: 0 30px;
     position: static;
+    margin-top: 10px;
     top: 0;
-    z-index: 99;
+    z-index: 1001;
     width: 100%;
     box-shadow: 0 2px 2px #115a10;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: baseline;
 }
 
@@ -64,14 +65,19 @@ h1 {
 /* Navbar styles with dropdown toggle selector*/
 
 nav {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
-    width: 100%;
-    left: 0;
+    width: 250px;
+    max-width: 50%;
+    /* This ensures that on larger screens, the nav won't take up the entire screen width */
+    height: 100vh;
+    left: -400px;
+    /* start off the screen */
     padding: 0 1rem;
     box-shadow: 0 2px 2px rgb(17, 90, 16);
-    display: none;
-    top: 100%;
+    top: 0;
+    transition: left 0.3s, transform 0.3s;
+    z-index: 999;
 }
 
 nav li:before {
@@ -81,20 +87,29 @@ nav li:before {
 
 /*Nav toggle element*/
 #nav-toggle:checked~nav {
-    display: block;
+    left: 0;
+    top: 46px
 }
-
+#nav-toggle:checked~main {
+    transform: translateX(400px);
+}
 #nav-toggle {
     display: none;
+    left:0
 }
-
-.nav-toggle-lable {
-    font-size: 5rem;
+.nav-toggle-label {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    z-index: 1002;
 }
-
 /* Main */
 main {
     flex: 1 0 auto;
+    transition: transform 0.3s;
 }
 
 p ul {
