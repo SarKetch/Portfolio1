@@ -96,18 +96,18 @@ h1 {
     display: none;
 }
 
-#nav-toggle:checked+.nav-toggle-label+nav+.content {
+#nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content {
     margin-left: 200px;
 }
 
-#nav-toggle:checked+.nav-toggle-label+nav {
+#nav-toggle:checked+.nav-toggle-label+.sidebar-nav {
     left: 0;
     /* When checked, bring it on screen */
 }
 
 /* Style for the sidebar navigation */
 
-nav {
+.sidebar-nav {
     position: fixed;
     top: 0;
     left: -200px;
@@ -119,7 +119,7 @@ nav {
     z-index: 1;
 }
 
-nav a {
+.sidebar-nav a {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 20px;
@@ -140,6 +140,31 @@ nav a {
     align-items: center;
     z-index: 1002;
     padding: 15px;
+}
+
+#horizontal-menu {
+    background-color: #ffffff;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#horizontal-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#horizontal-menu li:last-child {
+    margin-right: 0;
+    /* Removes the margin for the last item */
+}
+
+#horizontal-menu a {
+    color: #115a10;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
 }
 
 /* Centering The River House title */
@@ -325,25 +350,24 @@ footer li:before {
         flex-direction: column;
         align-items: center;
     }
-
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     nav {
-        display: block;
-        position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        width: 100%;
     }
 
-    #menu {
+    .horizontal-menu-wrapper {
+        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
-        gap: 1em;
     }
+    #horizontal-menu {
+        display: block;
 
-    #menu>li {
-        padding-left: 1rem;
-        text-align: center;
     }
 
     #logo {
@@ -358,10 +382,6 @@ footer li:before {
         padding: 10px;
     }
 
-    .nav-toggle-label {
-        display: none;
-    }
-
     /* Push main content downt to accomodate larger header */
     .container {
         width: 100%;
@@ -372,6 +392,7 @@ footer li:before {
         width: 100%;
         max-height: 800px;
     }
+}
 
     @media screen and (min-width: 992px) {
 
@@ -380,7 +401,6 @@ footer li:before {
         }
     }
 
-    /* Other CSS */
 
     @media screen and (min-width: 1200px) {
 
