@@ -385,7 +385,7 @@ p ul {
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 30vh;
     border: 0;
 }
 
@@ -541,29 +541,30 @@ footer li:before {
     .collage-container {
         flex-direction: row;
         width: 100%;
-        margin: 0 auto;
+        height: 70vh;
         align-items: center;
+        margin: auto;
     }
 
     .photos-left,
     .photos-right {
-        flex: 1;
+        flex: 3;
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .contact-info {
-        flex: 3;
-        margin: 0;
+        flex: 1;
+        margin: 0 20px;
+        padding: 0 20px;
     }
 
     .contact-collage {
-        margin: 10px;
+        flex: 3;
+        margin: 5px 0;
     }
 
     .contact-collage img {
         width: 100%;
-        max-width: 100%;
         height: 100%;
         object-fit: cover;
     }
