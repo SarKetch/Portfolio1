@@ -337,7 +337,22 @@ p ul {
     height: auto;
     object-fit: cover;
 }
+/* Inquire Page styles */
 
+.collage-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-collage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    padding: 20px;
+    text-align: center;
+}
 
 /* Footer */
 footer {
