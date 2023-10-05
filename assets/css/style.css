@@ -47,7 +47,9 @@ h1 {
 }
 
 .center {
-    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu {
@@ -374,13 +376,14 @@ p ul {
     width: 100%;
     margin-bottom: 10px;
 }
-
+/* Map on inquire page */
 iframe {
     width: 100%;
-    height: 200px;
+    height: 400px;
     display: flex;
     border: 0;
 }
+
 
 /* Footer */
 footer {
