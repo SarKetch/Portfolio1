@@ -372,9 +372,6 @@ p ul {
 }
 
 
-#contact-form {
-    display: flex;
-}
 
 .form-container {
     width: 95%;
@@ -620,6 +617,14 @@ footer li:before {
         height: 100%;
         object-fit: cover;
     }
+    /* Responsive map */
+    .container map-container iframe {
+        display: flex;
+        width: 100%;
+    }
+
+   /* Responsive contact form */
+
 }
 
 
