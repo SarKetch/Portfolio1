@@ -333,6 +333,36 @@ p ul {
 
 /* Inquire Page styles */
 
+.inquire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.attention-container p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.contact-button-container {
+    margin-top: 20px;
+}
+
+.contact-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: 700;
+    color: #115a10;
+    padding: 3px;
+    border: 1px solid rgb(218, 165, 32);
+    letter-spacing: .1em;
+    line-height: 1;
+}
 
 .collage-container {
     display: flex;
@@ -618,7 +648,7 @@ footer li:before {
         object-fit: cover;
     }
     /* Responsive map */
-    .container map-container iframe {
+    .map-container iframe {
         display: flex;
         width: 100%;
     }
