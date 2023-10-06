@@ -393,6 +393,19 @@ p ul {
     margin: 90px;
 }
 
+.contact-info p {
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #115a10;
+}
+
 /* Contact form */
 
 .center h2 {
