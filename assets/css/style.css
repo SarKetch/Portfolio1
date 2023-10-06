@@ -17,7 +17,6 @@ body {
     color: #115a10;
     font-family: "Cormorant Garamond", sans-serif;
     box-sizing: border-box;
-    position: relative;
 }
 
 /* Header */
@@ -72,6 +71,7 @@ h1 {
 .content {
     transition: margin-left 0.5s;
     margin-left: 0;
+    height:100vh;
 }
 
 .burger-icon {
@@ -173,7 +173,6 @@ h1 {
 #logo {
     text-align: center;
     margin-top: 10px;
-    /* Add other styles you want for the logo here */
 }
 
 /* Main */
@@ -306,6 +305,15 @@ p ul {
 .border-solid {
     text-align: center;
     padding: 10px;
+}
+
+/* About Us Page */
+
+
+.aboutus p {
+    color: #3a3a3a;
+    letter-spacing: .7px;
+    margin: 20px 0;
 }
 
 /* Gallery Page*/
@@ -490,7 +498,7 @@ iframe {
 footer {
     background-color: rgb(218, 165, 32,0.2);
     margin-top: auto;
-    position: sticky;
+    position: relative;
 }
 
 #social-networks {
