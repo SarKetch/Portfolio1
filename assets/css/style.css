@@ -75,6 +75,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+#menu .active {
+    margin-right: 25px;
+}
+
 .active {
     border-bottom: 2px solid #daa520;
 }
