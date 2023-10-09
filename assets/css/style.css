@@ -301,8 +301,6 @@ p ul {
     margin: 50px auto 25px;
     font-size: 2em;
     font-style: italic;
-    font-weight: 400;
-    border-bottom: ;
 }
 
 .separator-center {
@@ -366,6 +364,7 @@ p ul {
     letter-spacing: 1px;
     padding-bottom: 5px;
     font-size: 1.3em;
+    text-align: center;
 }
 
 .contact-button-container {
@@ -695,7 +694,7 @@ footer li:before {
         flex-direction: row;
         width: 100%;
         align-items: center;
-        margin: 5px;
+        margin: 5px auto;
     }
 
     .photos-left,
