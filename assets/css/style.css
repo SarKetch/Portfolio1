@@ -666,12 +666,12 @@ footer li:before {
     #column-container {
         column-count: 2;
         column-gap: 40px;
-        break-inside: avoid;
         max-width: 70vw;
         margin: 0 auto;
+        page-break-inside: avoid;
     }
     #column1, #column2 {
-        break-inside: avoid;
+        page-break-inside: avoid;
     }
     .separator {
         display: none;
