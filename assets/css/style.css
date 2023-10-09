@@ -328,14 +328,15 @@ p ul {
 /* About Us Page */
 
 .aboutus {
-    margin: 0 40px;
+    margin: 30px 30px 50px;
 }
 
 .aboutus p {
-    display: block;
     color: #3a3a3a;
     letter-spacing: .7px;
-    font-size: 1;
+    font-size: 1.3em;
+    margin: 20px 0;
+    text-align: center;
 }
 
 /* Gallery Page*/
@@ -618,6 +619,17 @@ footer li:before {
         max-height: 800px;
     }
 
+    /* About Us Page */
+
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
     /* Responsive Inquire page for min-width 768px*/
 
     .collage-container {
@@ -652,13 +664,13 @@ footer li:before {
         height: 100%;
        object-fit: cover;
     }
-        .form-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            margin: 0 auto;
-        }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
 
 @media screen and (min-width: 992px) {
 
