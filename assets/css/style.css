@@ -186,7 +186,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Centering The River House title */
+/* Centering The River's House title */
 
 #logo {
     text-align: center;
@@ -195,9 +195,8 @@ h1 {
 
 /* Main */
 main {
-    flex: 1 0 auto !important;
+    flex: 1 0 auto;
     transition: transform 0.3s;
-    flex-grow: 1;
 }
 
 p ul {
@@ -276,8 +275,8 @@ p ul {
 /* Intro text */
 
 .separator {
-    border: 1px solid rgb(108, 110, 112);
-    width: 20vw;
+    border: .7px solid rgb(218, 165, 32);
+    width: 30vw;
     margin: 30px 0;
     display: flex;
     justify-content: center;
@@ -300,9 +299,11 @@ p ul {
     line-height: 1.8;
 }
 
-#intro-text h3 {
+.openclose {
     font-size: larger;
     font-style: italic;
+    text-align: center;
+    font-weight: 500;
     color: #115a10;
 }
 
@@ -320,19 +321,26 @@ p ul {
     margin-left: 40px;
 }
 
-.border-solid {
-    text-align: center;
-    padding: 10px;
-}
-
 /* About Us Page */
+
+.aboutustitle {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.8em;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 .aboutus {
     margin: 30px 30px 50px;
+    max-width: 765px;
 }
 
 .aboutus p {
     color: #3a3a3a;
+    line-height: 1.5em;
+    text-indent: 1em;
     letter-spacing: .7px;
     font-size: 1.3em;
     margin: 20px 0;
@@ -532,7 +540,7 @@ footer {
 }
 
 #social-networks li {
-    font-size: 100%;
+    font-size: 1.2em;
 }
 
 .stay-in-touch {
@@ -603,10 +611,6 @@ footer li:before {
         padding-top: 20px;
     }
 
-    .border-solid {
-        text-align: center;
-        padding: 10px;
-    }
 
     /* Push main content downt to accomodate larger header */
     .container {
@@ -622,12 +626,7 @@ footer li:before {
     /* About Us Page */
 
     .aboutus {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        margin: 0 auto;
-        max-width: 800px;
+        margin: 0 auto 50px;
     }
 
     /* Responsive Inquire page for min-width 768px*/
