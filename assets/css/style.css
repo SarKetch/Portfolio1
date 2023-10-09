@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    min-height: 100vh;
+}
+
 /* General style rules */
 body {
     min-height: 100vh;
@@ -74,6 +78,15 @@ h1 {
     height:100vh;
 }
 
+/* Only for the About Us page - not enough content to push footer down. */
+.content-aboutus {
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.5s;
+    margin-left: 0;
+    height: 100vh;
+}
+
 .burger-icon {
     display: block;
 }
@@ -98,6 +111,11 @@ h1 {
 }
 
 #nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content {
+    margin-left: 200px;
+}
+
+/* Only for the About Us page */
+#nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content-aboutus {
     margin-left: 200px;
 }
 
@@ -177,9 +195,9 @@ h1 {
 
 /* Main */
 main {
-    flex: 1 0 auto;
+    flex: 1 0 auto !important;
     transition: transform 0.3s;
-    margin-top: 108;
+    flex-grow: 1;
 }
 
 p ul {
@@ -309,11 +327,15 @@ p ul {
 
 /* About Us Page */
 
+.aboutus {
+    margin: 0 40px;
+}
 
 .aboutus p {
+    display: block;
     color: #3a3a3a;
     letter-spacing: .7px;
-    margin: 20px 0;
+    font-size: 1;
 }
 
 /* Gallery Page*/
@@ -498,7 +520,6 @@ iframe {
 footer {
     background-color: rgb(218, 165, 32,0.2);
     margin-top: auto;
-    position: relative;
 }
 
 #social-networks {
