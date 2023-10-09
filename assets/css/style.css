@@ -100,14 +100,14 @@ h1 {
 #nav-toggle {
     display: none;
 }
-
+/* Safari is not compatible. Slideshow on index page gets cut off when nav-bar toggle is activated. 
 #nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content {
     margin-left: 200px;
 }
-
+*/
+  /* When checked, bring it on screen */
 #nav-toggle:checked+.nav-toggle-label+.sidebar-nav {
     left: 0;
-    /* When checked, bring it on screen */
 }
 
 /* Style for the sidebar navigation */
@@ -121,7 +121,7 @@ h1 {
     background-color: #115a10;
     overflow-x: hidden;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 7;
 }
 
 .sidebar-nav a {
@@ -144,7 +144,7 @@ h1 {
     display: flex;
     align-items: center;
     z-index: 10;
-    padding: 15px;
+    padding: 10px;
 }
 
 #horizontal-menu {
@@ -174,7 +174,7 @@ h1 {
 
 #logo {
     text-align: center;
-    margin-top: 10px;
+    padding-top: 20px;
 }
 
 /* Main */
@@ -406,7 +406,6 @@ p ul {
 }
 
 .contact-info {
-    margin: 5px;
     text-align: center;
     box-sizing: border-box;
     margin: 90px;
