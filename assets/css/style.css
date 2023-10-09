@@ -303,7 +303,6 @@ p ul {
     font-size: larger;
     font-style: italic;
     text-align: center;
-    font-weight: 500;
     color: #115a10;
 }
 
@@ -326,10 +325,10 @@ p ul {
 .aboutustitle {
     text-align: center;
     margin: 40px 0;
-    font-size: 1.8em;
+    font-size: 2em;
     font-style: italic;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .aboutus {
@@ -383,7 +382,7 @@ p ul {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .contact-button-container {
@@ -595,6 +594,7 @@ footer li:before {
     #horizontal-menu a {
         display: inline-block;
         vertical-align: bottom;
+        font-size: 1.2em;
     }
 
     #menu {
