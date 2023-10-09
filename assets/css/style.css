@@ -15,12 +15,17 @@ html {
 
 /* General style rules */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     color: #115a10;
     font-family: "Cormorant Garamond", sans-serif;
-    box-sizing: border-box;
+}
+
+/* About Us page need */
+.content {
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.5s;
+    margin-left: 0;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -45,7 +50,7 @@ header a {
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(17, 90, 16)
+    color: #115a10;
 }
 
 .center {
@@ -68,23 +73,6 @@ h1 {
 
 .active {
     border-bottom: 2px solid #115a10;
-}
-
-/* Navbar styles with dropdown toggle selector*/
-
-.content {
-    transition: margin-left 0.5s;
-    margin-left: 0;
-    height:100vh;
-}
-
-/* Only for the About Us page - not enough content to push footer down. */
-.content-aboutus {
-    display: flex;
-    flex-direction: column;
-    transition: margin-left 0.5s;
-    margin-left: 0;
-    height: 100vh;
 }
 
 .burger-icon {
@@ -111,11 +99,6 @@ h1 {
 }
 
 #nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content {
-    margin-left: 200px;
-}
-
-/* Only for the About Us page */
-#nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content-aboutus {
     margin-left: 200px;
 }
 
@@ -204,7 +187,7 @@ p ul {
 }
 
 /* Slidewshow container */
-.container {
+.slide-container {
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -275,7 +258,7 @@ p ul {
 /* Intro text */
 
 .separator {
-    border: .7px solid rgb(218, 165, 32);
+    border: .7px solid #daa520;
     width: 30vw;
     margin: 30px 0;
     display: flex;
@@ -324,11 +307,21 @@ p ul {
 
 .aboutustitle {
     text-align: center;
-    margin: 40px 0;
+    margin: 50px auto 25px;
     font-size: 2em;
     font-style: italic;
     text-transform: uppercase;
     font-weight: 400;
+    border-bottom: ;
+}
+
+.separator-center {
+    border: .7px solid #daa520;
+    width: 30vw;
+    margin: 0 auto 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutus {
@@ -396,7 +389,7 @@ p ul {
     font-weight: 700;
     color: #115a10;
     padding: 10px;
-    border: 1px solid rgb(218, 165, 32);
+    border: 1px solid #daa520;
     letter-spacing: .1em;
     line-height: 1;
 }
@@ -466,7 +459,7 @@ p ul {
     width: 100%;
     margin-bottom: 15px;
     height: 30px;
-    border: 1px solid rgb(218, 165, 32);
+    border: 1px solid #daa520;
 }
 
 .form-container select {
@@ -474,7 +467,7 @@ p ul {
     width: 50%;
     height: 30px;
     margin-bottom: 15px;
-    border: 1px solid rgb(218, 165, 32);
+    border: 1px solid #daa520;
 }
 
 .names {
@@ -494,7 +487,7 @@ textarea {
 
 input[type="date"] {
     width: 50%;
-    border: 1px solid rgb(218, 165, 32);
+    border: 1px solid #daa520;
 }
 
 input[type="submit"] {
@@ -512,7 +505,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(167, 40, 40);
+    background-color: #daa520;
 }
 
 /* Map on inquire page */
@@ -526,7 +519,7 @@ iframe {
 
 /* Footer */
 footer {
-    background-color: rgb(218, 165, 32,0.2);
+    background-color: #daa52033;
     margin-top: auto;
 }
 
@@ -583,6 +576,10 @@ footer li:before {
         width: 100%;
     }
 
+    .burger-icon,
+    .close-icon {
+        font-size: 1.5em;
+    }
     #horizontal-menu-wrapper {
         margin-bottom: 10px;
     }
@@ -613,7 +610,7 @@ footer li:before {
 
 
     /* Push main content downt to accomodate larger header */
-    .container {
+    .slide-container {
         width: 100%;
         max-height: 800px;
     }
@@ -726,7 +723,7 @@ footer li:before {
 
 @media screen and (min-width: 1200px) {
 
-    .container {
+    .slide-container {
         height: 100vh;
         width: 100%;
     }
