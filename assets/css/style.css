@@ -86,7 +86,7 @@ h1 {
 
 .close-icon {
     display: none !important;
-    color: #daa520
+    color: #f7f7f7;
 }
 
 #nav-toggle:checked~.nav-toggle-label .burger-icon {
@@ -128,7 +128,7 @@ h1 {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    color: #f7f7f7;
     display: block;
     transition: 0.3s;
 }
@@ -277,27 +277,17 @@ p ul {
 #intro-text {
     background-color: #ffffff;
     padding: 0 20px;
+    font-size: 1.3em;
     margin: 1em;
-    font-size: 1.5em;
     color: black;
     line-height: 1.8;
 }
 
 .openclose {
-    font-size: larger;
+    font-size: 1.5em;
     font-style: italic;
     text-align: center;
     color: #115a10;
-}
-
-#opener {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
-
-.intro-padding {
-    margin-right: 20px;
 }
 
 #ameneties>li {
@@ -311,7 +301,6 @@ p ul {
     margin: 50px auto 25px;
     font-size: 2em;
     font-style: italic;
-    text-transform: uppercase;
     font-weight: 400;
     border-bottom: ;
 }
@@ -669,6 +658,31 @@ footer li:before {
     }
 
 @media screen and (min-width: 992px) {
+
+    /* Index page - Responsive intro-text */
+
+    #column-container {
+        column-count: 2;
+        column-gap: 40px;
+        break-inside: avoid;
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+    #column1, #column2 {
+        break-inside: avoid;
+    }
+    .separator {
+        display: none;
+    }
+
+    .separator-center-home {
+        border: .7px solid #daa520;
+        width: 40vw;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* Responsive gallery */
     .gallery {
