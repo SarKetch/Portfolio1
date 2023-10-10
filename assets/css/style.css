@@ -375,6 +375,11 @@ p ul {
     margin-top: 20px;
 }
 
+.contact-button-container a:hover {
+    background-color: #ffd04d;
+    color: #115a10;
+}
+
 .contact-button {
     text-decoration: none;
     text-transform: uppercase;
