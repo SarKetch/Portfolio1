@@ -30,8 +30,8 @@ body {
 /* Header */
 header {
     background-color: #115a10;
-    opacity: .6;
-    color: #daa520;
+    opacity: .7;
+    color: #ffd04d;
     padding: 20px 0;
     position: relative;
     top: 0;
@@ -484,8 +484,9 @@ input[type="date"] {
 
 input[type="submit"] {
     background-color: #115a10;
-    opacity: .7;
     color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -497,7 +498,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #daa520;
+    background-color: #e7ae20;
 }
 
 /* Map on inquire page */
@@ -530,9 +531,8 @@ footer {
 .stay-in-touch {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    margin-top: 15px;
     font-style: italic;
-    font-weight: 400;
     text-transform: uppercase;
     font-size: 100%;
 }
