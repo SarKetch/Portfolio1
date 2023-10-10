@@ -137,7 +137,7 @@ h1 {
     transition: 0.3s;
 }
 
-/* Position the toggle button (bars icon) on top left */
+/* Position the toggle button (burger icon) on top left */
 
 .nav-toggle-label {
     position: fixed;
@@ -658,6 +658,8 @@ footer li:before {
         width: 100%;
         margin: 0 auto;
     }
+
+}
 
 @media screen and (min-width: 992px) {
 
