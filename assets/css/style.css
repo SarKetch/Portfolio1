@@ -740,7 +740,7 @@ footer li:before {
         width: 100%;
     }
 
-    .slide img {
+    .slide img  {
         height: 100vh;
         object-fit: cover;
         width: 100%;
