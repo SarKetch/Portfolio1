@@ -3,7 +3,7 @@
 ## Overview
 
 The River’s House website is a digital platform designed to showcase a venue suitable for private events, parties, and weddings. It provides users with images and details about the venue's features and history. The goal is to give potential customers a clear understanding of what the venue offers and how it can serve their event needs. The website is user-friendly, ensuring easy navigation for all visitors.
-![Screenshots of Website](./assets/readme.images/mockupscreen.webp)
+![Screenshots of Website](assets/readme.images/mockupscreen.webp)
 
 ## Features
 
