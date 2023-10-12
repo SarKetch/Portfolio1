@@ -19,8 +19,15 @@ body {
     color: #115a10;
     font-family: "Cormorant Garamond", sans-serif;
 }
-
-/* About Us page need */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    border-bottom: 2px solid #daa520;
+}
+/* Styles pertaining to entire content of all pages */
 .content {
     display: flex;
     flex-direction: column;
@@ -30,7 +37,8 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff color: #115a10;
+    background-color: #ffffff; 
+    color: #115a10;
     padding: 20px 0;
     position: relative;
     top: 0;
@@ -52,11 +60,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Sidebar nav  */
 
 #menu {
     font-size: 110%;
@@ -76,10 +80,6 @@ h1 {
 
 #menu .active {
     margin-right: 25px;
-}
-
-.active {
-    border-bottom: 2px solid #daa520;
 }
 
 .burger-icon {
@@ -104,11 +104,6 @@ h1 {
     display: none;
 }
 
-/* Safari is not compatible. Slideshow on index page gets cut off when nav-bar toggle is activated. 
-#nav-toggle:checked+.nav-toggle-label+.sidebar-nav+.content {
-    margin-left: 200px;
-}
-*/
 /* When checked, bring it on screen */
 #nav-toggle:checked+.nav-toggle-label+.sidebar-nav {
     left: 0;
@@ -138,8 +133,6 @@ h1 {
     transition: 0.3s;
 }
 
-/* Position the toggle button (burger icon) on top left */
-
 .nav-toggle-label {
     position: fixed;
     top: 5px;
@@ -151,6 +144,8 @@ h1 {
     z-index: 10;
     padding: 10px;
 }
+
+/* Horizontal-menu styles */
 
 #horizontal-menu {
     display: none;
@@ -191,7 +186,8 @@ p ul {
     letter-spacing: 2px;
 }
 
-/* Slidewshow container */
+/* Slideshow container */
+
 .slide-container {
     overflow: hidden;
     display: flex;
@@ -433,7 +429,7 @@ p ul {
     color: #115a10;
 }
 
-/* Contact form */
+/* Contact form styles */
 
 .center h2 {
     padding: 15px 0;
@@ -517,7 +513,7 @@ iframe {
 
 /* Footer */
 footer {
-    background-color: #daa52033;
+    background-color: #115a10;
     margin-top: auto;
 }
 
@@ -529,12 +525,15 @@ footer {
     list-style-type: none;
 }
 
+#social-networks i,
 #social-networks li {
     font-size: 1.2em;
+    color: #ffffff;
 }
 
 .stay-in-touch {
     display: flex;
+    color: #ffffff;
     justify-content: center;
     margin-top: 15px;
     font-style: italic;
@@ -607,7 +606,7 @@ footer li:before {
     }
 
 
-    /* Push main content downt to accomodate larger header */
+    /* Slideshow */
     .slide-container {
         width: 100%;
         max-height: 800px;
@@ -624,7 +623,7 @@ footer li:before {
         margin: 0 auto 50px;
     }
 
-    /* Responsive Inquire page for min-width 768px*/
+    /* Inquire page */
 
     .collage-container {
         flex-direction: column;
@@ -699,12 +698,12 @@ footer li:before {
         align-items: center;
     }
 
-    /* Responsive gallery */
+    /* Gallery page */
     .gallery {
         column-count: 2;
     }
 
-    /* Responsive Inquire Collage  */
+    /* Inquire Collage  */
     .collage-container {
         display: flex;
         flex-direction: row;
@@ -736,19 +735,18 @@ footer li:before {
         object-fit: cover;
     }
 
-    /* Responsive map */
+    /* Map */
     .map-container iframe {
         display: flex;
         width: 100%;
     }
-
-    /* Responsive contact form */
 
 }
 
 
 @media screen and (min-width: 1200px) {
 
+/* Slideshow */
     .slide-container {
         height: 100vh;
         width: 100%;
