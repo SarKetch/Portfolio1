@@ -26,7 +26,6 @@ The River’s House website is a digital platform designed to showcase a venue s
 - **Visual Showcase**: A dynamic gallery adapts to different screen sizes, displaying photos of the house, its surroundings, and some stock images (to depict potential events since the venue has yet to host them).
 - **Updates**: The gallery is primed for future enhancements, both in terms of content (new photos) and functionality (advanced coding techniques to allow for a more sophisticated slideshow with thumbnail photos).
 ![Screenshot of the gallery on fullscreen](assets/readme.images/galleryfullscreen.webp)
-![Screenshot of the gallery on mobile device](assets/readme.images/gallerymobile.webp)
 
 ### Footer
 
@@ -38,7 +37,7 @@ The River’s House website is a digital platform designed to showcase a venue s
 - **Responsiveness**: This screen adapts to multiple screen sizes, with the photos changing maneuvering around the screen for optimal viewer experience. 
 - **Location**:Embedded into the site is a small snippet of the map to give the viewer
 - **Functionality**: The form captures vital details such as the event type, guest count, preferred dates, and more. All fields are mandatory, ensuring detailed queries.
-
+![Screenshot of contact form](assets/readme.images/contactformfullscreen.webp)![Screenshot of top of inquire page on midsize screen](assets/readme.images/inquiremidsize.webp)
 
 ## Planned Features
 
