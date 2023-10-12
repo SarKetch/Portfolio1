@@ -3,7 +3,7 @@
 ## Overview
 
 The River’s House website is a digital platform designed to showcase a venue suitable for private events, parties, and weddings. It provides users with images and details about the venue's features and history. The goal is to give potential customers a clear understanding of what the venue offers and how it can serve their event needs. The website is user-friendly, ensuring easy navigation for all visitors.
-![Screenshots of Website](assets/readme.images/mockupscreen.webp)
+![Screenshot of website on varied device sizes](assets/readme.images/mockupscreen.webp)
 
 ## Features
 
@@ -12,22 +12,25 @@ The River’s House website is a digital platform designed to showcase a venue s
 - **Usability**: Featured across all pages, this fully responsive navigation bar ensures users can easily transition between the Logo, Home page, About Us, Gallery, and Inquiry page without needing the browser's back button.
 - **Design**: There are two types of navigation. The horizontal menu beneath the logo becomes visible on screens wider than 768px. The toggle sidebar nav, activated by the burger icon, is always accessible, catering to users who might have scrolled down and wish to navigate elsewhere.
 
+![Screenshot of dual nav bars visible.](assets/readme.images/dualnavbars.webp)
+
 ### Landing Page
 
 - **Introduction**: This section features photographic slideshow with a text overlay, offering users an immediate visual understanding of the venue's identity and ambiance.
 
 ### About Us
-
 - **Engagement**: This section delves into the rich history of the venue, its architectural evolution, and its current significance, tapping into the innate human curiosity about past stories and heritage.
 
 ### Gallery Section
 
 - **Visual Showcase**: A dynamic gallery adapts to different screen sizes, displaying photos of the house, its surroundings, and some stock images (to depict potential events since the venue has yet to host them).
 - **Updates**: The gallery is primed for future enhancements, both in terms of content (new photos) and functionality (advanced coding techniques to allow for a more sophisticated slideshow with thumbnail photos).
+![Screenshot of the gallery on fullscreen](assets/readme.images/galleryfullscreen.webp)
+![Screenshot of the gallery on mobile device](assets/readme.images/gallerymobile.webp)
 
 ### Footer
 
-- **Connectivity**: Direct links to potential social media platforms promise deeper engagement. Although the venue is still establishing its social media presence, placeholders are used, including a Pinterest link which can resonate with those planning weddings.
+- **Connectivity**: Direct links to potential social media platforms promise deeper engagement. Although the venue is still establishing its social media presence, placeholders are used, including a Pinterest link which can resonate with those planning weddings searching for inspiration. 
 
 ### Inquire
 
@@ -35,6 +38,7 @@ The River’s House website is a digital platform designed to showcase a venue s
 - **Responsiveness**: This screen adapts to multiple screen sizes, with the photos changing maneuvering around the screen for optimal viewer experience. 
 - **Location**:Embedded into the site is a small snippet of the map to give the viewer
 - **Functionality**: The form captures vital details such as the event type, guest count, preferred dates, and more. All fields are mandatory, ensuring detailed queries.
+
 
 ## Planned Features
 
