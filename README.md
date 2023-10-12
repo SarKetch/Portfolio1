@@ -35,7 +35,7 @@ The River’s House website is a digital platform designed to showcase a venue s
 
 - **Engagement**: Scenic photos draw users' attention. A "contact us" button is linked to a comprehensive contact form at the bottom.
 - **Responsiveness**: This screen adapts to multiple screen sizes, with the photos changing maneuvering around the screen for optimal viewer experience. 
-- **Location**:Embedded into the site is a small snippet of the map to give the viewer
+- **Location**: The site incorporates a compact map to provide the viewers with a glimpse of the venue's location (although at the moment, it is a general location and not specific.) For a detailed view, users to click on the map which will open a new tab with a full screen of google maps. 
 - **Functionality**: The form captures vital details such as the event type, guest count, preferred dates, and more. All fields are mandatory, ensuring detailed queries.
 ![Screenshot of contact form](assets/readme.images/contactformfullscreen.webp)![Screenshot of top of inquire page on midsize screen](assets/readme.images/inquiremidsize.webp)
 
